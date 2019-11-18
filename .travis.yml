@@ -6,5 +6,5 @@ install:
 script:
   - pytest --cov=pool
   - flake8 .
-  - pylint change
+  - pylint iteration
   - mypy .
