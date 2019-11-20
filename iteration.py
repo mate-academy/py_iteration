@@ -1,6 +1,13 @@
+"""
+docstring
+"""
 import math
 
 
-def sin_(x: float) -> float:
+def sin_(action: float) -> float:
+    """
 
-    return 42.
+    :param action:
+    :return:
+    """
+    return math.sin(action)
