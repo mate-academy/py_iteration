@@ -9,10 +9,10 @@ To deploy project on your local machine create new virtual environment and execu
 
 To run all style checkers and tests use commands:
 
-`pytest --cov=pool`
+`pytest`
 
-`flake8 .`
+`flake8 iteration`
 
-`pylint fishes pool config test_pool main`
+`pylint iteration`
 
-`mypy .`
+`mypy iteration.py`
